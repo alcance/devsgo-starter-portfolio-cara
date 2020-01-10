@@ -4,7 +4,7 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
+    siteTitleAlt: `Devsgo.com - Conecta con empresas del futuro, hoy.`,
   },
   plugins: [
     {
@@ -21,8 +21,8 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        short_name: `Devsgo.com`,
+        description: `Devsgo.com - Conecta con empresas del futuro, hoy.`,
         start_url: `/`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,
