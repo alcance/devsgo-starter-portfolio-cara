@@ -1,9 +1,14 @@
 # Todo
 
 - Auth0 integration
-- Auth0 Service
+  √ Auth0 Service
 - Database Modeling
 - Investigate Gatsby Backend integration
+
+## 03/25/2020
+
+- Agregar validacion en rutas protegidas
+- Formulario de Auth0 con social login
 
 # Notes
 
