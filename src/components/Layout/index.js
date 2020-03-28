@@ -1,8 +1,11 @@
 import React from "react";
+import NavBar from "../Navbar";
 
 const Layout = ({ children }) => (
   <div>
-    <header>Welcome</header>
+    <header>
+      <NavBar />
+    </header>
     <main>{children}</main>
   </div>
 );
