@@ -20,8 +20,8 @@ const onRedirectCallback = appState => {
 const App = () => {
   return (
     <Auth0Provider
-      domain={process.env.AUTH0_DOMAIN}
-      client_id={process.env.AUTH0_CLIENTID}
+      domain={process.env.GATSBY_AUTH0_DOMAIN}
+      client_id={process.env.GATSBY_AUTH0_CLIENTID}
       redirect_uri={typeof window !== 'undefined' ? window.location.origin : null}
       onRedirectCallback={onRedirectCallback}
     >
