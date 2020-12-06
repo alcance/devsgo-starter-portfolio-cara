@@ -4,7 +4,7 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Devsgo.com - Conecta con empresas del futuro, hoy.`
+    siteTitleAlt: `SYSTEC Academy - Connect with companies from the future, today.`
   },
   plugins: [
     {
@@ -21,8 +21,8 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Devsgo.com`,
-        description: `Devsgo.com - Conecta con empresas del futuro, hoy.`,
+        short_name: `SYSTEC ACADEMY`,
+        description: `SYSTEC Academy - Connect with companies from the future, today.`,
         start_url: `/`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,
