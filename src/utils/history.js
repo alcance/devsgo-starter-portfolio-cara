@@ -1,2 +1,4 @@
 import { createBrowserHistory } from "history";
-export default createBrowserHistory();
+const history = typeof window !== 'undefined' ? createBrowserHistory() : null;
+// export default createBrowserHistory();
+export default history;

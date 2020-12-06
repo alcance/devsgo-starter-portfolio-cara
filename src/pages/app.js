@@ -22,7 +22,7 @@ const App = () => {
     <Auth0Provider
       domain={process.env.AUTH0_DOMAIN}
       client_id={process.env.AUTH0_CLIENTID}
-      redirect_uri={window.location.origin}
+      redirect_uri={typeof window !== 'undefined' ? window.location.origin : null}
       onRedirectCallback={onRedirectCallback}
     >
       <Layout>
